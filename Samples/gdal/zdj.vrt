@@ -1,0 +1,33 @@
+<OGRVRTDataSource>
+ <OGRVRTLayer name="punkty">
+  <SrcDataSource>in\punkty.csv</SrcDataSource>
+  <GeometryType>wkbPolygon</GeometryType>
+  <LayerSRS>EPSG:2178</LayerSRS>
+  <GeometryField encoding="WKT" field="geom_wkt"/>
+  <Field name="Tytul_zas" type="String" width="254" />
+  <Field name="Opis" type="Text" width="254" />
+  <Field name="Nr_zgl" type="String" width="10" />
+  <Field name="Nr_szer" type="Integer" width="4" />
+  <Field name="Nr_zdj" type="String" width="4" />
+  <Field name="Kod_zas" type="String" width="30" />
+  <Field name="Kod_ukl" type="Integer" width="4" />
+  <Field name="Data_wyk" type="Date" />
+  <Field name="Pochodz" type="String" width="254" />
+  <Field name="Rozdz" type="Real" width="19" precision="11" />
+  <Field name="Barwy" type="String" width="10" />
+  <Field name="B_WGS84" type="Real" width="19" precision="11" />
+  <Field name="L_WGS84" type="Real" width="19" precision="11" />
+  <Field name="H_WGS84" type="Real" width="13" precision="11" />
+  <Field name="X_PUWG" type="Real" width="13" precision="11" />
+  <Field name="Y_PUWG" type="Real" width="13" precision="11" />
+  <Field name="H_norm" type="Real" width="13" precision="11" />
+  <Field name="H_sred" type="Real" width="13" precision="11" />
+  <Field name="Omega" type="Real" width="19" precision="11" />
+  <Field name="Fi" type="Real" width="19" precision="11" />
+  <Field name="Kappa" type="Real" width="19" precision="11" />
+  <Field name="Nr_karty" type="String" width="20" />
+  <Field name="Wykonawca" type="String" width="50" />
+  <Field name="Nr_obiektu" type="String" width="5" />
+  <Field name="Nr_etapu" type="Integer" width="4" />
+ </OGRVRTLayer>
+</OGRVRTDataSource>

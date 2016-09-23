@@ -1,0 +1,29 @@
+<OGRVRTDataSource>
+ <OGRVRTLayer name="punkty">
+  <SrcDataSource>in\punkty.csv</SrcDataSource>
+  <GeometryType>wkbPolygon</GeometryType>
+  <LayerSRS>EPSG:2180</LayerSRS>
+  <GeometryField encoding="WKT" field="geom_wkt"/>
+  <Field name="Tytul_zas" type="String" width="254" />
+  <Field name="Opis" type="String" width="254" />
+  <Field name="Nr_zgl" type="String" width="20" />
+  <Field name="Godlo" type="String" width="20" />
+  <Field name="Modul" type="String" width="20" />
+  <Field name="Kod_zas" type="String" width="30" />
+  <Field name="Kod_ukl" type="Integer" />
+  <Field name="Data_orto" type="Date" />
+  <Field name="Data_zdj" type="Date" />
+  <Field name="Pochodz" type="String" width="254" />
+  <Field name="Rozdz_ort" type="Real" />
+  <Field name="Zr_gsd" type="Real" />
+  <Field name="Zr_m_skal" type="Real" />
+  <Field name="Grupa_ort" type="String" width="10" />
+  <Field name="Rodz_zdj" type="String" width="25" />
+  <Field name="Barwy" type="String" width="10" />
+  <Field name="Blad_sr" type="Real" />
+  <Field name="Pokr" type="String" width="3" />
+  <Field name="Wykonawca" type="String" width="50" />
+  <Field name="Nr_obiektu" type="String" width="5" />
+  <Field name="Nr_etapu" type="Integer" />
+ </OGRVRTLayer>
+</OGRVRTDataSource>
